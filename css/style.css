@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@1,300 & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "poppins",sans-serif;
+
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    height: 60vh;
+    margin: auto;
+}
+.container header{
+    background-color: #242F9B;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+.container nav{
+    background-color: #00FFAB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.container nav a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    flex-grow: 1;
+}
+
+.container nav a:hover{
+    background-color: #F7D716;
+}
+.container .main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container .main aside{
+    background-color: #18978F;
+    color: #A0D995;
+    padding: 20px;
+    flex: 30%;
+}
+
+.container .main section{
+    background-color: #14C38E;
+    padding: 20px;
+    flex: 70%;
+}
+footer{
+    background-color: #242F9B;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.container .main acide h2{
+    width: 100px;
+    margin-bottom: 20px;
+
+}
+.container .main aside ul{
+    width: 100%;
+}
+.container .main aside ul li{
+    list-style: none;
+    padding: 1px;
+}
+.container .main aside ul li a{
+    color: #F32424;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.container .main aside ul li:hover{
+    background-color: #2D6688;
+    border: 1px solid #2D6688;
+    border-radius: 10px;
+}
